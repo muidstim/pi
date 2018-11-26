@@ -1,3 +1,4 @@
+# you may need to install Adafruit_DHT from the CLI
 # sudo pip3 install Adafruit_DHT
 
 import Adafruit_DHT
