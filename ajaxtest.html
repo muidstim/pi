@@ -1,0 +1,18 @@
+"""
+
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script>
+setInterval(function()
+{ 
+    $.ajax({
+      type:"post",
+      url:"/myroute",
+      datatype:"html",
+      success:function(data)
+      {
+          //do something with response data
+      }
+    });
+}, 10000);//time in milliseconds 
+</script>
+"""
