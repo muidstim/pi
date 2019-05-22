@@ -9,4 +9,5 @@ GPIO.setup(pin, GPIO.IN)
 
 while True:
     sleep(0.1)
+    #1 will be dark, 0 will be light
     print(GPIO.input(pin))
