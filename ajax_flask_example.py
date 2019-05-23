@@ -6,7 +6,7 @@ import random
 app = Flask(__name__)
 
 #This simply returns a random number
-@app.route("/random")
+@app.route("/getRandomNumber")
 def getRandomNumber():
     print("random function was called, this is for debugging")
     
@@ -27,7 +27,7 @@ setInterval(function()
 { 
     $.ajax({
       type:"get",
-      url:"/random",
+      url:"/getRandomNumber",
       datatype:"html",
       success:function(data)
       {
