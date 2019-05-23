@@ -31,7 +31,7 @@ setInterval(function()
       datatype:"html",
       success:function(data)
       {
-          //Whatever is returned by app.route("/random") will be inside the variable "data"
+          //Whatever is returned by app.route("/getRandomNumber") will be inside the variable "data"
           //All the html inside of the <div class="random"> will be replaced 
           $( ".random" ).html(data);
       }
